@@ -13,9 +13,6 @@
             text-align: justify;
             box-sizing: content-box;
             font-family: Calibri;
-
-
-
         }
 
         H1 {
@@ -27,42 +24,55 @@
             text-align: justify;
             float: left;
             margin-top: 10px;
-
-
-
+        }
+        #tronco{
+            display:inline-block
         }
 
         p {
             font-style: italic;
             color: white;
-        }
-
-        P1 {
-            color: rgb(56, 136, 234);
+            padding-left: 5px;
         }
 
         #titulo {
             color: rgb(56, 136, 234);
+            padding-left: 5px;
+        }
+
+        #centro {
+            color: rgb(56, 136, 234);
+        }
+
+        #estudios {
+            color: black;
+        }
+
+        #empresa {
+            color: rgb(56, 136, 234);
+        }
+
+        #puesto {
+            color: black
         }
     </STYLE>
 
-
-
 </head>
+
 
 <body style="background-color: lightgray ;">
     <h1 style="background-color: rgb(56, 136, 234)">
         <img src="Foto.jpg">
-        <p style="font-size: 5em"> ALBERTO<BR>
-            MORENO<BR>
+        <p style="font-size: 5em"> ALBERTO<br>
+            MORENO<br>
             FERNÁNDEZ</p>
         <BR>
         <BR>
         <BR>
 
-        <P style="border: solid" style="border-color:white">PERFIL PERSONAL</P>
+        <p style="border: solid" style="border-color:white">PERFIL PERSONAL.</p>
 
-        <p1 style="color:white">
+        <p id="uno" style="color:white">
             Extensa experiencia en ventas y atención al
             público.<br>
             Encantado de afrontar nuevos retos
@@ -75,41 +85,48 @@
             <br>
             Gran capacidad de trabajo en equipo.<br>
             Dominio del inglés medio.
-        </p1>
+        </p>
         <br><br><br>
-        <P style="border: solid" ; style="border-color:white">DATOS DE CONTACTO.</P>
-        <p1 style="color:white">
-            &#128205 C/ Dámaso Ruano, 2
-            casa 11.
-            29570 Cártama (Málaga)<br>
-            &#x2706 661 32 88 62<br>
+        <header>
+            <p style="border: solid" ; style="border-color:white">DATOS DE CONTACTO.</p>
+            <p id="uno" style="color:white">
+                &#128205 C/ Dámaso Ruano, 2
+                casa 11.
+                29570 Cártama (Málaga)<br>
+                &#x2706 661 32 88 62<br>
 
-            &#128231 tricomonas@hotmail.com<br>
+                &#128231 tricomonas@hotmail.com
 
-            https://www.linkedin.com/in/alberto-moreno-fern%C3%A1ndez-062b9543/</p1>
+            <footer><a href="https://www.linkedin.com/in/alberto-moreno-fern%C3%A1ndez-062b9543/">Linkedin</a></footer>
+            </p>
+        </header>
 
 
 
 
     </h1>
-    <h1 style="background-color: white">
+    <h1 id="tronco" style="background-color: white";
+    >
 
 
+        <section>
+            <p id="titulo" style="border: solid">FORMACIÓN ACADÉMICA.</p>
+        </section>
+        <P id="centro">UNIVERSIDAD DE MÁLAGA (1996 - 2003)</P>
 
-        <p id="titulo" style="border: solid">FORMACIÓN ACADÉMICA</p>
-        <P1>UNIVERSIDAD DE MÁLAGA (1996 - 2003)</P1>
-        <br>
-        <P2>Licenciado en Biología en la Especialidad de Biología
-            Celular y Molecular.</P2>
-        <br>
-        <P id="titulo" style="border:solid">EXPERICENCIA LABORAL</P>
-        <P1>Manufacturas Martin Aranda S.L (Noviembre 2019 -
-            Actualidad)</P1><br>
-        <P2>Oficial de 3ª especialista en manufactura de cristales.</P2>
-        <br><br>
-        <p1>Makinon Bikes S.L (Octubre 2013 - Noviembre 2019)</p1>
-        <br>
-        <p2>Vendedor, compras, almacén, mecánico.</p2>
+        <P id="estudios">Licenciado en Biología en la Especialidad de Biología
+            Celular y Molecular.</P>
+
+        <section>
+            <p id="titulo" style="border:solid">EXPERICENCIA LABORAL.</p>
+        </section>
+        <P id="empresa">Manufacturas Martin Aranda S.L (Noviembre 2019 -
+            Actualidad)</P>
+        <p id="puesto">Oficial de 3ª especialista en manufactura de cristales.</p>
+
+        <p id="empresa">Makinon Bikes S.L (Octubre 2013 - Noviembre 2019)</p>
+
+        <p id="puesto">Vendedor, compras, almacén, mecánico.</p>
         <ul>
             <li>Atención y asesoramiento al público de artículos
                 deportivos, sobre todo bicicletas y accesorios.</li>
@@ -118,24 +135,24 @@
             <li>Mecánica rápida.</li>
         </ul>
 
-        <p1>Laboratorios Sanofi (Abril 2012 - Mayo 2013)</p1><br>
-        <p2>Comercial Farmacias</p2>
+        <p id="empresa">Laboratorios Sanofi (Abril 2012 - Mayo 2013)</p>
+        <p id="puesto">Comercial Farmacias</p>
         <ul>
             <li>Venta de productos OTC, medicamentos y EFGs.</li>
             <li>Fidelización y ampliación de la cartera de clientes de
                 las provincias de Málaga, Granada y Almería.</li>
         </ul>
-        <p1>Laboratorios Diafarm (Junio 2009 - Febrero 2011)</p1><br>
+        <p id="empresa">Laboratorios Diafarm (Junio 2009 - Febrero 2011)</p>
 
-        <p2>Comercial Farmacias</p2>
+        <p id="puesto">Comercial Farmacias</p>
         <ul>
             <li>Venta de productos en farmacias y parafarmacias de
                 las provincias de Málaga y Jaén.</li>
         </ul>
-        <p1>Laboratorios Forte Pharma Ibérica S.L
-            (Enero 2007 - Abril 2009)</p1><br>
+        <p id="empresa">Laboratorios Forte Pharma Ibérica S.L
+            (Enero 2007 - Abril 2009)</p>
 
-        <p2>Comercial Farmacias</p2>
+        <p id="puesto">Comercial Farmacias</p>
         <ul>
             <li>Venta de productos de adelgazamiento y complemtenos
                 nutricionales en farmacias y parafarmacias de las provincias de
@@ -143,33 +160,33 @@
             <li>Visita a mayoristas para la presentación de
                 novedades.</li>
         </ul>
-        <p1>Laboratorios Rottapharm (Agosto 2006 - Enero 2007)</p1><br>
+        <p id="empresa">Laboratorios Rottapharm (Agosto 2006 - Enero 2007)</p>
 
-        <p2>Comercial Farmacias</p2>
+        <p id="puesto">Comercial Farmacias</p>
         <ul>
             <li>Venta de productos en farmacias y parafarmacias de
                 las provincias de Málaga y Granada y en menor
                 medida Almeria y Jaén.</li>
         </ul>
-        <p1>Laboratorios Alter (Agosto 2004 - Agosto 2006)</p1><br>
+        <p id="empresa">Laboratorios Alter (Agosto 2004 - Agosto 2006)</p>
 
-        <p2>Comercial Farmacias y visita médica.</p2>
+        <p id="puesto">Comercial Farmacias y visita médica.</p>
         <ul>
             <li>Venta de EFPs (Couldina) y cosmética (Germinal)</li>
             <li>Visita a Dermatólogos, Pediatras y Ginecólogos para
                 conseguir la recomendación de los productos.</li>
         </ul>
 
-        <p1>Timeless Comfort S.L (Septiembre 2002 - Enero 2004)</p1><br>
+        <p id="empresa">Timeless Comfort S.L (Septiembre 2002 - Enero 2004)</p>
 
-        <p2>Vendedor de muebles.</p2>
+        <p id="puesto">Vendedor de muebles.</p>
         <ul>
             <li>Atención y asesoramiento al público para la venta de muebles
                 de diseño.</li>
         </ul>
-        <p1>Salvador Madueño Ruiz (Julio 1999 - Octubre 2002)</p1><br>
+        <p id="empresa">Salvador Madueño Ruiz (Julio 1999 - Octubre 2002)</p>
 
-        <p2>Ayudante de auxiliar administrativo.</p2>
+        <p id="puesto">Ayudante de auxiliar administrativo.</p>
 
 
     </h1>
@@ -177,5 +194,6 @@
 
 
 </body>
+
 
 </html>
