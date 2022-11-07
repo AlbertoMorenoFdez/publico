@@ -5,31 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C.V. Alberto Moreno Fernández</title>
+    <title>C.V. FlexBox</title>
 
     <STYLE>
         * {
             font-size: 1em;
-            text-align: justify;
-            box-sizing: content-box;
+            text-align: start;
+            box-sizing: inherit;
             font-family: Calibri;
+                        padding: 0
         }
 
-        div {
-            padding: 40px;
-            width: 45%;
-            height: 1200px;
-            border-style: none;
-            position: relative;
-            text-align: justify;
-            float: left;
-            margin-top: 10px;
-        }
+        h1 {}
 
-        #tronco {
-            display: inline-block
-              
-        }
+        #tronco {}
 
         p {
             font-style: italic;
@@ -40,15 +29,16 @@
         #titulo {
             color: rgb(56, 136, 234);
             padding-left: 5px;
+
         }
 
         #centro {
-            
+
             color: rgb(56, 136, 234);
         }
 
         #estudios {
-            
+
             color: black;
         }
 
@@ -60,70 +50,81 @@
         #puesto {
             color: black
         }
+        div{
+            align-content: flex-start;
+        }
     </STYLE>
 
 </head>
 
 
 <body style="background-color: lightgray ;">
-    <div style="background-color: rgb(56, 136, 234)">
-        <!-- Se le añade un atributo neutral para que no de error, se podrai dar un atributo en funcion de la imagen -->
-        <img alt(="") src="Foto.jpg">      
-        <p style="font-size: 5em"> ALBERTO<br>
-            MORENO<br>
-            FERNÁNDEZ</p>
-        <BR>
-        <BR>
-        <BR>
+    <div>
+        <h1 style="background-color: rgb(56, 136, 234)">
+            <img src="Foto.jpg">
+            <div>
+                <p style="font-size: 5em"> ALBERTO<br>
+                    MORENO<br>
+                    FERNÁNDEZ</p>
+            </div>
+            <BR>
+            <BR>
+            <BR>
 
-        <p style="border: solid" style="border-color:white">PERFIL PERSONAL.</p>
+            <div padding="20px">
+                <p style="border: solid" style="border-color:white">PERFIL PERSONAL.</p>
+            </div>
 
-        <p id="uno" style="color:white">
-            Extensa experiencia en ventas y atención al
-            público.<br>
-            Encantado de afrontar nuevos retos,
-            ya que me permiten desarrollarme tanto laboral como
-            personalmente.
-            <br>
-            Dinámico, organizado y proactivo, capaz de
-            adaptarme a cualquier ambiente y tipo de
-            trabajo.
-            <br>
-            Gran capacidad de trabajo en equipo.<br>
-            Dominio del inglés medio.
-        </p>
-        <br><br><br>
-        <header>
-            <p style="border: solid" ; style="border-color:white">DATOS DE CONTACTO.</p>
             <p id="uno" style="color:white">
-                &#128205 C/ Dámaso Ruano, 2
-                casa 11.
-                29570 Cártama (Málaga)<br>
-                &#x2706 661 32 88 62<br>
-
-                &#128231 tricomonas@hotmail.com
-
-            <footer><a href="https://www.linkedin.com/in/alberto-moreno-fern%C3%A1ndez-062b9543/">Linkedin</a></footer>
+                Extensa experiencia en ventas y atención al
+                público.<br>
+                Encantado de afrontar nuevos retos,
+                ya que me permiten desarrollarme tanto laboral como
+                personalmente.
+                <br>
+                Dinámico, organizado y proactivo, capaz de
+                adaptarme a cualquier ambiente y tipo de
+                trabajo.
+                <br>
+                Gran capacidad de trabajo en equipo.<br>
+                Dominio del inglés medio.
             </p>
-        </header>
+            <br><br><br>
+            <header>
+                <p style="border: solid" ; style="border-color:white">DATOS DE CONTACTO.</p>
+                <p id="uno" style="color:white">
+                    &#128205 C/ Dámaso Ruano, 2
+                    casa 11.
+                    29570 Cártama (Málaga)<br>
+                    &#x2706 661 32 88 62<br>
+
+                    &#128231 tricomonas@hotmail.com
+
+                <footer><a href="https://www.linkedin.com/in/alberto-moreno-fern%C3%A1ndez-062b9543/">Linkedin</a>
+                </footer>
+                </p>
+            </header>
 
 
 
 
+        </h1>
     </div>
-    <div id="tronco" style="background-color: white" ;>
+    <h1 id="tronco" style="background-color: white" ;>
 
 
-        <section>
+        <div>
+
             <p id="titulo" style="border: solid">FORMACIÓN ACADÉMICA.</p>
-        </section>
-        <P id="centro">UNIVERSIDAD DE MÁLAGA (1996 - 2003)</P>
+            </section>
+            <P id="centro" style="border: solid">UNIVERSIDAD DE MÁLAGA (1996 - 2003)</P>
 
-        <P id="estudios">Licenciado en Biología en la Especialidad de Biología
-            Celular y Molecular.</P>
+            <P id="estudios">Licenciado en Biología en la Especialidad de Biología
+                Celular y Molecular.</P>
+        </div>
 
-        <section>
-            <p id="titulo" style="border:solid">EXPERICENCIA LABORAL.</p>
+
+        <p id="titulo" style="border:solid">EXPERICENCIA LABORAL.</p>
         </section>
         <P id="empresa">Manufacturas Martin Aranda S.L (Noviembre 2019 -
             Actualidad)</P>
@@ -182,19 +183,35 @@
                 conseguir la recomendación de los productos.</li>
         </ul>
 
-        <p id="empresa">Timeless Comfort S.L (Septiembre 2002 - Enero 2004)</p>
+        <div>
+            <div >
+                <p id="empresa">Timeless Comfort S.L (Septiembre 2002 - Enero 2004)</p>
+            </div>
 
-        <p id="puesto">Vendedor de muebles.</p>
-        <ul>
-            <li>Atención y asesoramiento al público para la venta de muebles
-                de diseño.</li>
-        </ul>
-        <p id="empresa">Salvador Madueño Ruiz (Julio 1999 - Octubre 2002)</p>
+            <div>
+                <p id="puesto">Vendedor de muebles.</p>
+            </div>
 
-        <p id="puesto">Ayudante de auxiliar administrativo.</p>
+            <div>
+                <ul>
+                    <li>Atención y asesoramiento al público para la venta de muebles
+                        de diseño.</li>
+                </ul>
+            </div>
+        </div>
+        <div 
+        >
+            <div>
+                <p id="empresa">Salvador Madueño Ruiz (Julio 1999 - Octubre 2002)</p>
+            </div>
+
+            <div>
+                <p id="puesto">Ayudante de auxiliar administrativo.</p>
+            </div>
+        </div>
 
 
-    </div>
+    </h1>
 
 
 
