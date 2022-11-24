@@ -59,6 +59,15 @@
         #puesto {
             color: black
         }
+
+        picture {
+            width: 300px;
+            height: 300px;
+            object-fit:contain;
+        }
+        img{
+            width: 100%;
+        }
     </STYLE>
 
 </head>
@@ -67,7 +76,7 @@
 <body style="background-color: lightgray ;">
     <div style="background-color: rgb(56, 136, 234)">
         <!-- Se le añade un atributo neutral para que no de error, se podrai dar un atributo en funcion de la imagen -->
-        <img alt="1" src="Foto.jpg">
+        <picture><img title="Mi foto" ; alt="Mi foto de curriculum" src="Foto.jpg"> </picture>
         <p style="font-size: 5em"> ALBERTO<br>
             MORENO<br>
             FERNÁNDEZ</p>
