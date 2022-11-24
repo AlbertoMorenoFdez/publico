@@ -32,31 +32,85 @@ nav {
     box-shadow: 2px 2px darkolivegreen inset;
 }
 
+img {
+    width: 20vw;
+
+    height: auto;
+}
+
+article {
+    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    column-count: 0;
+
+}
+#caja {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+div {
+    column-count: 3;
+}
+
+#pa1 {
+    color: red;
+}
+
+#pa2 {
+    color: blue;
+
+}
+
+#pa3 {
+    color: green;
+}
+main{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    
+}
+#fotosuperior{
+    padding-right: 20px;
+    float: left;
+    width: 25%;
+
+}
 @media screen and (max-width:800px) {
 
     /* estos estilos solo se aplican para viewports de hasta 800px de ancho*/
     body {
         background-color: yellow;
-        
+
     }
 
 
 }
-@media screen and (orientation:portrait){
-    body{
+
+@media screen and (orientation:portrait) {
+    body {
         background-color: black;
         color: white;
     }
-    
+
 }
-@media screen and (max-width:900px){
-    li{
+
+@media screen and (max-width:900px) {
+    li {
         width: 100px;
     }
 }
-@media screen and (max-width:600px){
-    li{
+
+@media screen and (max-width:600px) {
+    li {
         width: 50px;
     }
 }
-    
