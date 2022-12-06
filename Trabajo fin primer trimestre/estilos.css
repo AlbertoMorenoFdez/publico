@@ -1,6 +1,10 @@
 body {
-    background-color: lightslategray;
-    background-image:"imagenbackground.jpg" alt="fondo estateria animales museo">;
+    
+    background-image:url(https://github.com/AlbertoMorenoFdez/publico/blob/main/Trabajo%20fin%20primer%20trimestre/imagenbackground.jpg?raw=true);
+    opacity: 1 !important;
+}
+.contenido{
+    opacity: 1;
 }
 
 @media screen and (orientation:portrait){
