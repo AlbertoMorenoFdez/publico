@@ -6,8 +6,8 @@ body {
 li {
     /* estilo del boton*/
     display: inline-block;
-    width: 10%;
-    height: 10%;
+    width: 85%;
+    height: 89%;
     background-color: lightblue;
     border-radius: 5px;
     margin: 5px;
@@ -18,6 +18,7 @@ li {
     padding-top: 1 vh;
     font-size: xx-large;
     box-shadow: 2px 2px darkolivegreen;
+    justify-content: space-around;
 
 
 
@@ -25,7 +26,18 @@ li {
 
 nav {
     background-color: lightgray;
+    display:flex;
+    justify-content: center;
+    
+}
 
+ul{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 70%;
+    height: 30%;
+    padding-inline-start: 0px;
 }
 
 #seleccionado {
@@ -39,19 +51,20 @@ img {
 }
 
 article {
-    
+
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     column-count: 0;
 
 }
+
 #caja {
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
 
 }
 
@@ -71,19 +84,22 @@ div {
 #pa3 {
     color: green;
 }
-main{
+
+main {
     position: relative;
     top: 0px;
     left: 0px;
     width: 30%;
-    
+
 }
-#fotosuperior{
+
+#fotosuperior {
     padding-right: 20px;
     float: left;
     width: 25%;
 
 }
+
 @media screen and (max-width:800px) {
 
     /* estos estilos solo se aplican para viewports de hasta 800px de ancho*/
