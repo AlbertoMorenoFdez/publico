@@ -10,7 +10,7 @@
 						<xsl:for-each select="cancion/letra/estrofa">
 							<xsl:sort select="orden"/>
 							<div>
-							<xsl:for-each select="/verso">
+							<xsl:for-each select="verso">
 								<p>
 								<xsl:value-of select="."/>
 								</p>
